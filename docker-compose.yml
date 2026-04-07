@@ -3,5 +3,5 @@ services:
     build: .
     container_name: portfolio-quartz
     ports:
-      - "8080:8080"
+      - "8082:8080"
     restart: unless-stopped
